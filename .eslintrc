@@ -35,6 +35,8 @@
     "no-else-return": 1,
     "quotes": [ 1, "single" ],
     "jsx-quotes": "warn",
-    "react/jsx-filename-extension": "off"
+    "react/jsx-filename-extension": "off",
+    "react/display-name": "off",
+    "fp/no-rest-parameters": "off"
   }
 }
