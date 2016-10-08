@@ -2499,6 +2499,33 @@
       "from": "jest-changed-files@>=16.0.0 <17.0.0",
       "resolved": "https://registry.npmjs.org/jest-changed-files/-/jest-changed-files-16.0.0.tgz"
     },
+    "jest-cli": {
+      "version": "16.0.1",
+      "from": "jest-cli@latest",
+      "resolved": "https://registry.npmjs.org/jest-cli/-/jest-cli-16.0.1.tgz",
+      "dependencies": {
+        "callsites": {
+          "version": "2.0.0",
+          "from": "callsites@>=2.0.0 <3.0.0",
+          "resolved": "https://registry.npmjs.org/callsites/-/callsites-2.0.0.tgz"
+        },
+        "cliui": {
+          "version": "3.2.0",
+          "from": "cliui@^3.2.0",
+          "resolved": "https://registry.npmjs.org/cliui/-/cliui-3.2.0.tgz"
+        },
+        "window-size": {
+          "version": "0.2.0",
+          "from": "window-size@^0.2.0",
+          "resolved": "https://registry.npmjs.org/window-size/-/window-size-0.2.0.tgz"
+        },
+        "yargs": {
+          "version": "5.0.0",
+          "from": "yargs@>=5.0.0 <6.0.0",
+          "resolved": "https://registry.npmjs.org/yargs/-/yargs-5.0.0.tgz"
+        }
+      }
+    },
     "jest-config": {
       "version": "16.0.0",
       "from": "jest-config@>=16.0.0 <17.0.0",
