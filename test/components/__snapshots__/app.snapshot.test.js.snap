@@ -1,0 +1,37 @@
+exports[`test should render the application 1`] = `
+<section>
+  <section>
+    <header>
+      <h1>
+        A Todo List: 
+        Reat & Redux Todo List
+      </h1>
+      <button
+        onClick={[Function]}>
+        Add
+      </button>
+    </header>
+     
+    <ul>
+      <li>
+        foo
+        <button
+          onClick={[Function]}>
+          Remove
+        </button>
+      </li>
+      <li>
+        bar
+        <button
+          onClick={[Function]}>
+          Remove
+        </button>
+      </li>
+    </ul>
+  </section>
+   
+  <div>
+    2016
+  </div>
+</section>
+`;
