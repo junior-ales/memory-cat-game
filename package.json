@@ -1,11 +1,11 @@
 {
-  "name": "memory-cat-game",
-  "description": "Jogo da Memória de Gato",
+  "name": "react-redux-todo-list",
+  "description": "React, Redux, Brunch and Jest TodoList app",
   "author": "Junior Ales",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/junior-ales/react-redux-todo-list"
   },
   "scripts": {
     "start": "brunch watch --server",
