@@ -1,5 +1,4 @@
 /* eslint-disable */
-
 import { addTodo, deleteTodo } from '../app/actions';
 
 test('addTodo should have type and text', () => {
