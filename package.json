@@ -7,6 +7,7 @@
     "type": "git",
     "url": "https://github.com/junior-ales/react-redux-todo-list"
   },
+  "keywords": ["react", "redux", "jest", "brunch", "enzyme", "ramda", "functional programming"],
   "scripts": {
     "start": "brunch watch --server",
     "prod": "brunch build --production",
