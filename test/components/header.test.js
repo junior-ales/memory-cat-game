@@ -1,17 +1,19 @@
 /* eslint-disable */
-import renderer from 'react-test-renderer';
 import React from 'react';
+import { shallow } from 'enzyme';
 import Header from '../../app/components/Header';
+
+const mockOnSave = jest.fn();
 
 const props = {
   title: 'React & Redux TodoList',
-  dispatch: fn => x => fn(x)
+  dispatch: action => mockOnSave
 };
 
-test('should render header', () => {
-  const renderedComponent = renderer.create(
-    <Header {...props} />
-  );
+test('should call onSave with text', () => {
+  const header = shallow(<Header {...props} />);
 
-  expect(renderedComponent.toJSON()).toMatchSnapshot();
+  header.find('button').simulate('click');
+
+  expect(mockOnSave).toBeCalledWith('foobar');
 });

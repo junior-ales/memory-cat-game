@@ -4,11 +4,9 @@ exports[`test should render header 1`] = `
     A Todo List: 
     React & Redux TodoList
   </h1>
-  <div>
-    <button
-      onClick={[Function]}>
-      Add
-    </button>
-  </div>
+  <button
+    onClick={[Function]}>
+    Add
+  </button>
 </header>
 `;
