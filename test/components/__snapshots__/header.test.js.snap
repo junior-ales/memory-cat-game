@@ -1,0 +1,14 @@
+exports[`test should render header 1`] = `
+<header>
+  <h1>
+    A Todo List: 
+    React & Redux TodoList
+  </h1>
+  <div>
+    <button
+      onClick={[Function]}>
+      Add
+    </button>
+  </div>
+</header>
+`;
