@@ -29,6 +29,7 @@
     "brunch": "^2.4.0",
     "clean-css-brunch": "^2.0.0",
     "css-brunch": "^2.0.0",
+    "enzyme": "^2.4.1",
     "eslint-brunch": "^3.11.1",
     "eslint-config-cleanjs": "^4.0.0",
     "eslint-plugin-better": "^0.1.5",
@@ -38,6 +39,8 @@
     "javascript-brunch": "^2.0.0",
     "jest": "^16.0.1",
     "jest-cli": "^16.0.1",
+    "react-addons-test-utils": "^15.3.2",
+    "react-test-renderer": "^15.3.2",
     "uglify-js-brunch": "^2.0.0"
   }
 }
